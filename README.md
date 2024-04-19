@@ -10,7 +10,7 @@ All the packages needed to enable WiFi on Ubuntu, after having it installed on a
 
 4. Run in terminal:
 	
-	- sudo spkg -i b43-fwcutter_019-11build1_amd64.deb
+	- sudo dpkg -i b43-fwcutter_019-11build1_amd64.deb
 	- tar xfvj broadcom-wl-5.100.138.tar.bz2 
 	- sudo b43-fwcutter -w /lib/firmware broadcom-wl-5.100.138/linux/wl-apsta.o
 
